@@ -18,6 +18,7 @@ public class Cart{
 		if (book.size() > 0) {
 			for (Book b : book) {
 				totalPrice+=  b.getPrice()*b.getQuantity();
+			
 			}
 		}
 		return totalPrice;	

@@ -36,6 +36,5 @@ public class tc {
 		c.addBook(b2);
 		assertEquals(3, c.getCount());
 		assertTrue(354.0== c.getTotalPrice());
-
 	}
 }
