@@ -25,7 +25,6 @@ public class tc {
 		assertEquals(1, c.getCount());
 		assertTrue(127.0== c.getTotalPrice());
 	}
-	
 	@Test
 	public void testCart() {
 		Cart c= new Cart();
