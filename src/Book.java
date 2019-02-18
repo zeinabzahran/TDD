@@ -12,5 +12,7 @@ public class Book {
 	public double getPrice() {
 		return this.price;
 	}
-	
+	public double getQuantity() {
+		return this.quantity;
+	}
 }

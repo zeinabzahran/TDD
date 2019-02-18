@@ -28,14 +28,14 @@ public class tc {
 	}
 	
 	@Test
-	public void testCart2() {
+	public void testCart() {
 		Cart c= new Cart();
-		Book b1= new Book("Java", 1, 127.0);
+		Book b1= new Book("Java", 2, 127.0);
 		Book b2= new Book("Web Design", 1, 100.0);
 		c.addBook(b1);
 		c.addBook(b2);
-		assertEquals(2, c.getCount());
-		assertTrue(227.0== c.getTotalPrice());
+		assertEquals(3, c.getCount());
+		assertTrue(354.0== c.getTotalPrice());
 
 	}
 }
