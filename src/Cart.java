@@ -15,6 +15,7 @@ public class Cart{
 		this.book.add(book);	
 	}
 	
+	
 	public double getTotalPrice() {
 		if (book.size() > 0) {
 			for (Book b : book) {
