@@ -15,5 +15,4 @@ public class Book {
 	public double getQuantity() {
 		return this.quantity;
 	}
-	
 }
