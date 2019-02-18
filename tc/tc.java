@@ -24,7 +24,6 @@ public class tc {
 		c.addBook(b);
 		assertEquals(1, c.getCount());
 		assertTrue(127.0== c.getTotalPrice());
-
 	}
 	
 	@Test

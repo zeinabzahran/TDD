@@ -9,7 +9,6 @@ public class Book {
 		this.quantity = quantity;
 		this.price = price;
 	}
-	
 	public double getPrice() {
 		return this.price;
 	}
