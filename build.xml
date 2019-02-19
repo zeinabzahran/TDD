@@ -1,6 +1,7 @@
 <project default="compile">
      
      <property name="src.java.dir" location="./src"/>
+      <property name="src.test.dir" location="./tc"/>
      <property name="result.dir" location="./target"/>
      <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
      <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
@@ -22,7 +23,7 @@
         <pathelement location="./src/junit-4.12.jar"/>
         <!--matcher-->
         <pathelement location="./src/hamcrest-core-1.3.jar"/>
-        <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
+        <pathelement location="./src/jacocoant.jar"/>
     </path>
     
         
